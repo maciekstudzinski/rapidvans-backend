@@ -32,7 +32,7 @@ class CreateOrdersTable extends Migration
             $table->string('business_activity');
             $table->string('business_reg_no');
             $table->integer('vehicle_pickup_id');
-            $table->float('initial_rental_proce');
+            $table->float('initial_rental_price');
             $table->float('price_per_month');
             $table->string('contract_length');
             $table->string('order_email');
