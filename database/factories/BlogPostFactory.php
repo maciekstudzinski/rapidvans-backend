@@ -20,7 +20,7 @@ class BlogPostFactory extends Factory
     {
         $title = $this->faker->sentence;
 
-        $body = $this->faker->paragraphs(rand(5, 15));
+        $body = $this->faker->text(200);
 
 
         return [
